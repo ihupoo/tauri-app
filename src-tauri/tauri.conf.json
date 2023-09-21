@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "tauri-app",
+    "productName": "mini",
     "version": "0.0.0"
   },
   "tauri": {
@@ -16,7 +16,12 @@
       "shell": {
         "all": false,
         "open": true
-      }
+      },
+	  "dialog": {
+		"all": true,
+		"open": true,
+		"save": true
+	  }
     },
     "bundle": {
       "active": true,
@@ -37,7 +42,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-app",
+        "title": "mini",
         "width": 800,
         "height": 600
       }
